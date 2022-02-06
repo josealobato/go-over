@@ -1,15 +1,20 @@
 from .hello_dad import heyo
 import argparse
 
-DESCRIPTION = "What!!"
+DESCRIPTION = """
+The 'go-over' provide a set of tools to process input from different sources,
+and generate JSON output that is easy to be process with Liquid in Jekyll.
+
+It was build to help me maintaing my blog at `https://josealobato.com`.
+"""
 
 parser = argparse.ArgumentParser(description=DESCRIPTION,
     formatter_class=argparse.RawDescriptionHelpFormatter)
 
-subparsers = parser.add_subparsers(dest="command", help = "jal subcomamnd help")
+subparsers = parser.add_subparsers(dest="command", help = "Available Commands for go-over.")
 
 # Global artument options
-parser.add_argument("-v", "--verbose", action="store_true")
+parser.add_argument("-v", "--verbose", action="store_true", help="Print extra information.")
 
 # GOODREADS Method and Parser 
 
@@ -22,8 +27,33 @@ def gr_processor(args, options):
     print(args)
 
 # Create Parser for Good Reads processing
+GR_DESCRIPTION = """
+This script convert the goodreads csv to a nicer format for jekyll reading.
+
+It takes the `cvs` generated from GoodReads (My Books > Import Export) and 
+another JSON file with complementary data, and generates JSON files prepared 
+to be read with Liquid and displayed on the Jekyll blog.
+
+The outpu JSON files are:
+* reading.
+* one for every year.
+* one with books with no date.
+
+The idea is that those JSON files cound be maintained by hand if GoodReads stops working.
+
+NOTES on the complementary file.
+* It contains fields that are missing on GR. 
+* It matches with the GR data using the GR book Id.
+* If this file is not there it will be generated from the existing books. You will need to fill it
+  and run it again.
+* If a new book is added, during processing this file will be updated. You will need to add
+  the information and run it again.
+"""
 parser_gr = subparsers.add_parser("goodreads", 
-    help="jal goodreads help")
+    aliases=['gr'],
+    help="Process a Goodreads CSV (see help).",
+    description=GR_DESCRIPTION,
+    formatter_class=argparse.RawDescriptionHelpFormatter)
 parser_gr.add_argument("-g", "--gr_csv_path", 
     default=DEFAULT_GR_CVS_FILE_PATH,
     help="CVS exported from goodreads.")
@@ -56,4 +86,4 @@ def cli_processor():
         args.func(args, options) 
     else:
         # otherwise show the help
-        print(parser.parse_args(['-h']))
+        parser.print_help()
