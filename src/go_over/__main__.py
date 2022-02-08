@@ -1,6 +1,5 @@
-from . import hello_world2
-from .hello_dad import heyo
+from .example_module import heyo
 
+# This module is to be develop.
 if __name__ == "__main__":
-    hello_world2()
     heyo()
