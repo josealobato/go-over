@@ -14,3 +14,18 @@ go-over -h
 > NOTE: I'm new to python, so any advice on how to do this better is highly welcome.
 
 Jose A. Lobato.
+
+## Setting up the dev environment
+
+I'm using a python virtual environment and I have exported the configuration to a file called `venv_requirements.txt`. To start working follow these steps:
+
+1. On the root folder, create the environment if you do not have it already with: `python3 -m venv .venv`
+2. Start the environment: `source .venv/bin/activate`
+3. Install the requirements: `pip install -r requirements.txt`
+4. Install the local package to edit: `pip install -e ./`
+
+You should be ready to go!
+
+With that done you can run the test with: `pytest`
+When you finish, stop the virtual environment with: `deactivate`
+
