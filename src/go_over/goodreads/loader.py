@@ -44,7 +44,8 @@ class Loader:
         """ Load the content of the loader target path as a dictionary. """
         self.__logger.info(f"Load file at path: {self.__target_path}")
         with open(self.__target_path, "r", encoding="utf-8") as json_file:
-            return json.load(json_file)
+            json_content = json.load(json_file)
+            return json_content
 
     def __load_array(self) -> List:
         """ Use to load from a CVS """

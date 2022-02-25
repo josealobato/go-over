@@ -9,7 +9,7 @@ from .printer import OnDirectoryPrinter
 from .bookshelf import Bookshelf
 from .bookshelfComplement import BookshelfComplement
 
-def process(args: Dict, options: Dict):
+def process(gr_csv_path: str, complement_json_path: str, results_path: str, options: Dict): 
 
     if options["verbose"]:
         logging.basicConfig(level=logging.INFO, format='%(message)s')
@@ -18,14 +18,14 @@ def process(args: Dict, options: Dict):
     
     # Load.
     logger.info("\n * Load source CVS:")
-    loader = Loader(args.gr_csv_path)
+    loader = Loader(gr_csv_path)
     bookshelf = Bookshelf.build_from_loader(loader)
     
     # Load complementary data and update it if needed with the existing shelf.
     # Note that if complementray data file is not there, it will be created.
     # Existing information on the complementary data wont be overriden.
     logger.info("\n * Load and update complementary json:")
-    complement_loader = Loader(args.complement_json_path)
+    complement_loader = Loader(complement_json_path)
     bookshelf_complement = BookshelfComplement(complement_loader)
     bookshelf_complement.update_from_shelf(bookshelf)
 
@@ -39,7 +39,7 @@ def process(args: Dict, options: Dict):
 
     # Print out all the wanted results from the new shelf.
     logger.info("\n * Print out resulting files:")
-    printer = OnDirectoryPrinter(args.results_path)
+    printer = OnDirectoryPrinter(results_path)
     generator = Generator(bookshelf, printer)
     generator.execute()
 

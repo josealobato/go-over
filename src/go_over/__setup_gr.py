@@ -8,8 +8,7 @@ DEFAULT_GR_RESULTS_PATH = "./results"
 
 # Action when the Goodreads parser is selected
 def gr_processor(args, options):
-    # print(args)
-    processor.process(args, options)
+    processor.process(args.gr_csv_path, args.complement_json_path, args.results_path, options)
 
 # Create Parser for Good Reads processing
 GR_DESCRIPTION = """

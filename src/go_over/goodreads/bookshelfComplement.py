@@ -50,6 +50,6 @@ class BookshelfComplement:
         """ If the complement data file does not exist it will generate it from the given shelf.
             It will generate a default entry for every book."""
         if not self.loader.source_exist:
-            self.log.info(f"Generate complementary data file: {self.loader.source_path}")
+            self.logger.info(f"Generate complementary data file: {self.loader.source_path}")
             books_complementary_data = [b.complementary_data_dictionary for b in shelf.books]
             self.printer.dump(books_complementary_data)

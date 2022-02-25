@@ -96,4 +96,6 @@ I'm using a python virtual environment and I have exported the configuration to 
 You should be ready to go!
 
 With that done you can run the test with: `pytest`
+To run the test allowing for prints (not capturing) and inspecting fixtures run: `pytest -v -s --setup-show`
+
 When you finish, stop the virtual environment with: `deactivate`
