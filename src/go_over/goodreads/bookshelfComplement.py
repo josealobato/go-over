@@ -52,4 +52,5 @@ class BookshelfComplement:
         if not self.loader.source_exist:
             self.logger.info(f"Generate complementary data file: {self.loader.source_path}")
             books_complementary_data = [b.complementary_data_dictionary for b in shelf.books]
-            self.printer.dump(books_complementary_data)
+            data_dictionary = { 'books': books_complementary_data }
+            self.printer.dump(data_dictionary)

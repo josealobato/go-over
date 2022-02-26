@@ -99,3 +99,9 @@ With that done you can run the test with: `pytest`
 To run the test allowing for prints (not capturing) and inspecting fixtures run: `pytest -v -s --setup-show`
 
 When you finish, stop the virtual environment with: `deactivate`
+
+## Change log
+
+### v0.1.4
+
+* [goodreads] The complementary data includes the title of the books (issue #5)

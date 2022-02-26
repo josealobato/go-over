@@ -42,6 +42,9 @@ class Book:
     def update_with_complentary_data_dictionary(self, complementary_data: Dict) -> None:
         """ Update the book with the data comming from a dictionary with complementary data.
             Notice that the complementary data many miss keys. """
+        complementary_data.setdefault("title", self.title)
+        self.title = complementary_data["title"]
+        
         complementary_data.setdefault("language", self.language)
         self.language = complementary_data["language"]
 
@@ -120,6 +123,7 @@ class Book:
         """ From a book it created a dictionary with only the complementary data """
         result = {}
         result['id'] = self.identifier
+        result['title'] = self.title
         result['language'] = self.language
         result['tags'] = self.__tags
         result['format'] = self.document_format

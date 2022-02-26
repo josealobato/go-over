@@ -10,6 +10,8 @@ RESULTS_PATH = 'results'
 
 # Fixtures
 
+# Goodreads CSV files fixtures
+
 @pytest.fixture(scope='function', name="csv_one_book")
 def csv_one_book_file(tmpdir_factory):
     """ Create a CSV file with just one book. """
@@ -36,6 +38,8 @@ def csv_one_book_file_plus_empty_line(tmpdir_factory):
         f.write(csv_text)
     return file
 
+# Complementary JSON files fixtures
+
 @pytest.fixture(scope='function', name='json_none')
 def json_complement_file_none_existant(tmpdir_factory):
     """ Create just the path of the complement file """
@@ -54,6 +58,8 @@ def json_complement_file_withou_books(tmpdir_factory):
     with open(file, "w") as f:
         json.dump(to_dump, f, indent=4)
     return file
+
+# Results path fixtures.
 
 @pytest.fixture(scope='function')
 def results_path(tmpdir_factory):
