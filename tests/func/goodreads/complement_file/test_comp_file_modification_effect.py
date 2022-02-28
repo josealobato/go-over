@@ -8,29 +8,6 @@ from ...constants import *
 # Under test
 from go_over.goodreads.processor import process
 
-# Fixtures
-
-@pytest.fixture(scope='function', name='complemetary_data_modified')
-def json_complement_file_with_custom_data(tmpdir_factory):
-    """ Create a complementary file with custom data """
-    file = tmpdir_factory.mktemp(SOURCE_DATA_PATH).join(JSON_COMPLEMENT_FILE)
-    book = {
-        "id": "57343730",
-        "title": "A new title",
-        "language": "JP",
-        "tags": "ai,be",
-        "format": "flimsybook",
-        "my_review_url": "/a_review/",
-        "read_dates": [
-                "2020/10/20",
-                "2021/05/06"
-            ]
-    }
-    to_dump = {"books": [book]}
-    with open(file, "w") as f:
-        json.dump(to_dump, f, indent=4)
-    return file
-
 # Test
 
 def test_comp_file_modification_effect_on_title(csv_one_book, complemetary_data_modified, results_path):
@@ -82,4 +59,3 @@ def test_comp_file_modification_effect_on_review(csv_one_book, complemetary_data
     results = load_result("books_read_2022.json", results_path)
     book = results['books'][0]
     assert book["my_review_url"] == "/a_review/"
-    

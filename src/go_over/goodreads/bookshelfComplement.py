@@ -21,8 +21,24 @@ class BookshelfComplement:
         return self.__data_dictionary['books']
 
     def update_from_shelf(self, shelf: 'Bookshelf') -> None:
+        """ With the object create with the minimum data (the source path) it will load it,
+            update it from the existing shelf and prepare it for its use. Finally it will update
+            the source complementary file with the available data."""
+        self.__generate_template_if_needed(shelf)
+        self.__load()
+        self.__update_source_from_bookshelf(shelf)
+
+    def __update_source_from_bookshelf(self, shelf: 'Bookshelf') -> None:
+        """ Will update the source file with The books on the shelf. """
+        data_dictionary = {"books": []}
+        for book in shelf.books:
+            data_dictionary['books'].append(book.complementary_data_dictionary)
+        self.printer.dump(data_dictionary)
+
+    def update_from_shelf_if_needed(self, shelf: 'Bookshelf') -> None:
         """ With the object create with the minimum data (the source path) it will load it
-            update it from the existing shelf and prepare it for its use."""
+            update it from the existing shelf and prepare it for its use. Finally it will update
+            the source complementary file with the available data for new books only."""
         self.__generate_template_if_needed(shelf)
         self.__load()
         self.__update_source_from_bookshelf_if_needed(shelf)

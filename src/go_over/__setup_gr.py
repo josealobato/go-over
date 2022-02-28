@@ -48,4 +48,7 @@ def setup_gr_parser(subparsers):
     parser_gr.add_argument("-r", "--results_path",
         default=DEFAULT_GR_RESULTS_PATH,
         help="Path were the output will be written.")
+    parser_gr.add_argument("-f", "--force_complementary_rewrite", 
+        action="store_true", 
+        help="Force the rewrite of the complementary file (no data loss).")
     parser_gr.set_defaults(func=gr_processor) # Important: this is the function to call if the parser is selected.

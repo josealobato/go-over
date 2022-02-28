@@ -45,7 +45,7 @@ This will generate the files in a folder with the name `./results`. But call als
 go-over goodreads -g goodreads_library_export.csv -r _data
 ```
 
-Unfortunatelly the data coming from [Goodreads.com](https://www.goodreads.com) is uncomplete or does not contains all the information to customize your blog, but no worries, you can easiy complement the that with your own dat. To do so you can provide a complementary JSON file with the `-c` paramenter. If that file is not there, `go-over` will generate it for you from the data on the original CVS file.
+Unfortunatelly the data coming from [Goodreads.com](https://www.goodreads.com) is uncomplete or does not contains all the information to customize your blog, but no worries, you can easiy complement the that with your own data. To do so you can provide a complementary JSON file with the `-c` paramenter. If that file is not there, `go-over` will generate it for you from the data on the original CVS file. Also you can force the generation of this file any time with the flag `--force_complementary_rewrite` or `-f`
 
 You can always ask `go-over` to regenerate that file from the loaded data with the `-f` option.
 

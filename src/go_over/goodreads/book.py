@@ -110,6 +110,7 @@ class Book:
         result['author'] = self.author
         result['title'] = self.title
         result['rating'] = self.rating
+        # Note, this date format is the one preffered by Liquid.
         result['date'] = self.date_read.strftime("%Y-%m-%d") if self.date_read else None
         result['tags'] = self.tags
         result['format'] = self.document_format
@@ -127,8 +128,12 @@ class Book:
         result['language'] = self.language
         result['tags'] = self.__tags
         result['format'] = self.document_format
-        result['my_review_url'] = None
-        result['read_dates'] = None
+        result['my_review_url'] = self.my_review_url
+        if self.read_dates:
+            result['read_dates'] = [d.strftime("%Y/%m/%d") for d in self.read_dates]
+        else:
+            result['read_dates'] = None 
+            
         return result
 
     def reads(self) -> List['BookRead']:

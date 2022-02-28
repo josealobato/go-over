@@ -1,4 +1,3 @@
-import imp
 import logging
 from typing import Dict, List
 
@@ -11,6 +10,7 @@ from .bookshelfComplement import BookshelfComplement
 
 def process(gr_csv_path: str, complement_json_path: str, results_path: str, options: Dict): 
 
+    options.setdefault("verbose", False)
     if options["verbose"]:
         logging.basicConfig(level=logging.INFO, format='%(message)s')
 
@@ -27,7 +27,7 @@ def process(gr_csv_path: str, complement_json_path: str, results_path: str, opti
     logger.info("\n * Load and update complementary json:")
     complement_loader = Loader(complement_json_path)
     bookshelf_complement = BookshelfComplement(complement_loader)
-    bookshelf_complement.update_from_shelf(bookshelf)
+    bookshelf_complement.update_from_shelf_if_needed(bookshelf)
 
     # Update Shell with complementary data.
     # Now with the complete complementary data update the shelf.
@@ -36,6 +36,14 @@ def process(gr_csv_path: str, complement_json_path: str, results_path: str, opti
     bookshelf.update_with_complementary_information(
         bookshelf_complement.complementary_information_list
     )
+
+    # If requested force the regeneration of the complementary data with the
+    # shelf. Notice that that new complementary data will update the non existing 
+    # complementary data parts with the information from the books.
+    options.setdefault("rewrite_complementary_data", False)
+    if options["rewrite_complementary_data"]:
+        logger.info("\n * Force write the complementary data.")
+        bookshelf_complement.update_from_shelf(bookshelf)
 
     # Print out all the wanted results from the new shelf.
     logger.info("\n * Print out resulting files:")
