@@ -18,7 +18,7 @@ def test_comp_file_generation_when_it_is_not_there(csv_one_book, json_none, resu
     books = results["books"]
     assert len(books) == 1
     book = books[0]
-    assert len(book) == 7
+    assert len(book) == 8
     assert book["id"] == "57343730"
     assert book["title"] == "Super Learning: Advanced Strategies for Quicker Comprehension, Greater Retention, and Systematic Expertise"
     assert book["language"] == "EN"
@@ -26,3 +26,4 @@ def test_comp_file_generation_when_it_is_not_there(csv_one_book, json_none, resu
     assert book["format"] == "audiobook"
     assert book["my_review_url"] == None
     assert book["read_dates"] == ['2022/02/17']
+    assert book["is_favourite"] == False

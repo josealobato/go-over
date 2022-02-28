@@ -90,6 +90,11 @@ class Bookshelf:
         books = [book for book in self.books if book.currently_reading]
         return books
 
+    def favourites(self) -> List[Book]:
+        """ Get the books marked as favourites """
+        books = [book for book in self.books if book.is_favourite]
+        return books
+
     def statistics_for_year(self, year: int) -> Dict:
         """ Getting the statistics for a year """
         stats = { "read": 0 }

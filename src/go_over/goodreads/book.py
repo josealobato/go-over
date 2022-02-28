@@ -5,6 +5,7 @@
 """
 from datetime import datetime
 from typing import Dict, List
+import logging
 
 # pylint: disable=R0902
 class Book:
@@ -30,6 +31,7 @@ class Book:
         self.__tags = "nonfiction"
         self.document_format = "audiobook"
         self.my_review_url = None
+        self.is_favourite = False
 
     def __str__(self):
         return f'"{self.title}" by {self.author} read on {self.date_read}'
@@ -64,6 +66,12 @@ class Book:
                 self.add_reads(new_read_dates)
             else:
                 print(f"[Warning] trying to add a read date to unread book with id {self.identifier}.")
+        
+        complementary_data.setdefault("is_favourite", False)
+        self.is_favourite = complementary_data["is_favourite"]
+        if self.is_favourite:
+            log = logging.getLogger(__name__)
+            log.info(f"- Favourite book: {self.title[:30]}...")
 
     @property
     def last_read(self) -> datetime:
@@ -117,6 +125,7 @@ class Book:
         result['goodreads_url'] = "https://www.goodreads.com/book/show/" + self.identifier
         result['language'] = self.language
         result['my_review_url'] = self.my_review_url
+        result['is_favourite'] = self.is_favourite
         return result
 
     @property
@@ -133,6 +142,7 @@ class Book:
             result['read_dates'] = [d.strftime("%Y/%m/%d") for d in self.read_dates]
         else:
             result['read_dates'] = None 
+        result['is_favourite'] = self.is_favourite
             
         return result
 

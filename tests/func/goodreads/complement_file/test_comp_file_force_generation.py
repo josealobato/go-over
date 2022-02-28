@@ -18,7 +18,7 @@ def test_force_generate_without_initial_complementary_data(csv_one_book, json_no
     books = results["books"]
     assert len(books) == 1
     book = books[0]
-    assert len(book) == 7
+    assert len(book) == 8
     assert book["id"] == "57343730"
     assert book["title"] == "Super Learning: Advanced Strategies for Quicker Comprehension, Greater Retention, and Systematic Expertise"
     assert book["language"] == "EN"
@@ -28,6 +28,7 @@ def test_force_generate_without_initial_complementary_data(csv_one_book, json_no
     assert book["read_dates"] == [
                 "2022/02/17"
             ] # Notice it contains the read date that comes with the book.
+    assert book["is_favourite"] == False
 
 def test_force_generation_with_initial_complementary_data(csv_one_book, complemetary_data_modified, results_path):
     """ Force generate when there was a complementary file that modify the original data 
@@ -40,7 +41,7 @@ def test_force_generation_with_initial_complementary_data(csv_one_book, compleme
     books = results["books"]
     assert len(books) == 1
     book = books[0]
-    assert len(book) == 7
+    assert len(book) == 8
     assert book["id"] == "57343730"
     assert book["title"] == "A new title"
     assert book["language"] == "JP"
@@ -50,6 +51,7 @@ def test_force_generation_with_initial_complementary_data(csv_one_book, compleme
     assert "2022/02/17" in book["read_dates"] 
     assert "2020/10/20" in book["read_dates"] 
     assert "2021/05/06" in book["read_dates"]  
+    assert book["is_favourite"] == False
 
 def test_force_generation_with_initial_complementary_data_missing_fields(csv_one_book, complemetary_data_with_missing_fields, results_path):
     """ Force generate when there was a complementary with missing fiels will complement those fields if they exist on the original data. """
@@ -61,7 +63,7 @@ def test_force_generation_with_initial_complementary_data_missing_fields(csv_one
     books = results["books"]
     assert len(books) == 1
     book = books[0]
-    assert len(book) == 7
+    assert len(book) == 8
     assert book["id"] == "57343730"
     assert book["title"] == "A new title"
     assert book["language"] == "JP"
@@ -71,6 +73,7 @@ def test_force_generation_with_initial_complementary_data_missing_fields(csv_one
     assert book["read_dates"] == [
                 "2022/02/17"
             ]
+    assert book["is_favourite"] == False
     
 def test_force_generation_with_initial_complementary_data_missing_fields_of_unread_book(csv_one_unread_book, complemetary_data_with_missing_fields, results_path):
     """ Force generate an unread book and there is not date on either the original nor the complementary  """
@@ -82,9 +85,10 @@ def test_force_generation_with_initial_complementary_data_missing_fields_of_unre
     books = results["books"]
     assert len(books) == 1
     book = books[0]
-    assert len(book) == 7
+    assert len(book) == 8
     assert book["id"] == "57343730"
     assert book["read_dates"] == None
+    assert book["is_favourite"] == False
 
 def test_result_when_force_generation_with_initial_complementary_data(csv_one_book, complemetary_data_modified, results_path):
     """ Force generate wont affect the result data.. """
@@ -100,3 +104,4 @@ def test_result_when_force_generation_with_initial_complementary_data(csv_one_bo
     assert book["format"] == "flimsybook"
     assert book["my_review_url"] == "/a_review/"
     # Data is not tested because it involve several files (see test_comp_file_modification_dates.py)
+    assert book["is_favourite"] == False

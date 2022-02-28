@@ -9,6 +9,7 @@ READ_OUT_FILE_NAME_PREFIX = "books_read_"
 READ_OUT_NO_DATE_FILE_NAME = "books_read_no_date"
 BOOKS_BY_TAGS_FILE_NAME = "books_by_tags"
 STATS_FILE_NAME = "books_stats"
+FAVOURITES_FILE_NAME = "books_favourites"
 
 class Generator:
     """ 
@@ -57,6 +58,13 @@ class Generator:
         """ Generate a file with the genenal statistics. """
         stats = self.__shelf.statistics
         self.__printer.dump(stats, STATS_FILE_NAME)
+
+    def __generate_favourites(self):
+        """ Generate the list of favourite books. """
+        if self.__shelf.favourites():
+            books = [b.dictionary for b in self.__shelf.favourites()]
+            books_dict = { 'books': books }
+            self.__printer.dump(books_dict, FAVOURITES_FILE_NAME)
     
     def execute(self) -> None:
         """ Execute all exporting """
@@ -65,4 +73,5 @@ class Generator:
         self.__generate_no_date_books()
         self.__generate_books_by_tags()
         self.__generate_stats()
+        self.__generate_favourites()
         self.__logger.info(f"Generation done! You will find the resulting files at: \n'{self.__printer.printer_path}'")
