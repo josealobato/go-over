@@ -8,8 +8,8 @@ from typing import Dict, List
 import logging
 import re
 
-def position_from_string(string: str) -> int:
-    pattern = r"\#(\d+)"
+def to_read_position_from_string(string: str) -> int:
+    pattern = r"to-read \(\#(\d+)\)"
     matched = re.findall(pattern, string)
     if matched:
         value = matched[0]
@@ -44,9 +44,9 @@ class Book:
         self.is_favourite = False
         self.is_to_read = kwargs["Exclusive Shelf"] == "to-read"
         if "Bookshelves with positions" in kwargs:
-            self.position = position_from_string(kwargs["Bookshelves with positions"])
+            self.to_read_position = to_read_position_from_string(kwargs["Bookshelves with positions"])
         else:
-            self.position = 0
+            self.to_read_position = 0
 
     def __str__(self):
         return f'"{self.title}" by {self.author} read on {self.date_read}'
@@ -85,8 +85,8 @@ class Book:
         complementary_data.setdefault("is_favourite", False)
         self.is_favourite = complementary_data["is_favourite"]
         if self.is_favourite:
-            log = logging.getLogger(__name__)
-            log.info(f"- Favourite book: {self.title[:30]}...")
+            logger = logging.getLogger(__name__)
+            logger.info(f"- Favourite book: {self.title[:30]}...")
 
     @property
     def last_read(self) -> datetime:
@@ -141,6 +141,7 @@ class Book:
         result['language'] = self.language
         result['my_review_url'] = self.my_review_url
         result['is_favourite'] = self.is_favourite
+        result['to_read_position'] = self.to_read_position
         return result
 
     @property

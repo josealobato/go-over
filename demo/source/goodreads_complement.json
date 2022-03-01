@@ -134,7 +134,8 @@
             "my_review_url": "/lyssa-adkins-coaching-agile-teams/",
             "read_dates": [
                 "2022/02/04"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "58017525",
@@ -889,7 +890,8 @@
             "my_review_url": null,
             "read_dates": [
                 "2020/11/21"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "35393371",
@@ -1519,7 +1521,8 @@
             "read_dates": [
                 "2019/06/03",
                 "2019/08/13"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "23232941",
@@ -1772,7 +1775,8 @@
             "read_dates": [
                 "2019/01/29",
                 "2018/11/16"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "29353087",
@@ -1858,7 +1862,8 @@
             "my_review_url": null,
             "read_dates": [
                 "2018/10/11"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "34466962",
@@ -2092,7 +2097,8 @@
             "my_review_url": null,
             "read_dates": [
                 "2018/08/10"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "6772529",
@@ -2104,7 +2110,8 @@
             "read_dates": [
                 "2018/08/08",
                 "2011/06/06"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "1633",
@@ -2115,7 +2122,8 @@
             "my_review_url": null,
             "read_dates": [
                 "2018/07/29"
-            ]
+            ],
+            "is_favourite": true
         },
         {
             "id": "10284614",
@@ -2263,7 +2271,8 @@
             "tags": "nonfiction",
             "format": "audiobook",
             "my_review_url": null,
-            "read_dates": null
+            "read_dates": null,
+            "is_favourite": true
         },
         {
             "id": "6262510",
@@ -2326,7 +2335,8 @@
             "tags": "nonfiction",
             "format": "softcover",
             "my_review_url": null,
-            "read_dates": null
+            "read_dates": null,
+            "is_favourite": true
         }
     ]
 }
