@@ -10,6 +10,7 @@ READ_OUT_NO_DATE_FILE_NAME = "books_read_no_date"
 BOOKS_BY_TAGS_FILE_NAME = "books_by_tags"
 STATS_FILE_NAME = "books_stats"
 FAVOURITES_FILE_NAME = "books_favourites"
+TO_READ_FILE_NAME = "books_to_read"
 
 class Generator:
     """ 
@@ -65,6 +66,13 @@ class Generator:
             books = [b.dictionary for b in self.__shelf.favourites()]
             books_dict = { 'books': books }
             self.__printer.dump(books_dict, FAVOURITES_FILE_NAME)
+
+    def __generate_to_read(self):
+        """ Generate the to read book list. """
+        if self.__shelf.to_read():
+            books = [b.dictionary for b in self.__shelf.to_read()]
+            books_dict = { 'books': books }
+            self.__printer.dump(books_dict, TO_READ_FILE_NAME)
     
     def execute(self) -> None:
         """ Execute all exporting """
@@ -74,4 +82,5 @@ class Generator:
         self.__generate_books_by_tags()
         self.__generate_stats()
         self.__generate_favourites()
+        self.__generate_to_read()
         self.__logger.info(f"Generation done! You will find the resulting files at: \n'{self.__printer.printer_path}'")

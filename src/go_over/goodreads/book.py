@@ -6,6 +6,16 @@
 from datetime import datetime
 from typing import Dict, List
 import logging
+import re
+
+def position_from_string(string: str) -> int:
+    pattern = r"\#(\d+)"
+    matched = re.findall(pattern, string)
+    if matched:
+        value = matched[0]
+        return int(value)
+    else:
+        return 0
 
 # pylint: disable=R0902
 class Book:
@@ -32,6 +42,11 @@ class Book:
         self.document_format = "audiobook"
         self.my_review_url = None
         self.is_favourite = False
+        self.is_to_read = kwargs["Exclusive Shelf"] == "to-read"
+        if "Bookshelves with positions" in kwargs:
+            self.position = position_from_string(kwargs["Bookshelves with positions"])
+        else:
+            self.position = 0
 
     def __str__(self):
         return f'"{self.title}" by {self.author} read on {self.date_read}'

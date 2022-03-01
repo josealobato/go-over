@@ -95,6 +95,11 @@ class Bookshelf:
         books = [book for book in self.books if book.is_favourite]
         return books
 
+    def to_read(self) -> List[Book]:
+        """ Get the books marked as to read sorted by position """
+        books = [book for book in self.books if book.is_to_read]
+        return sorted(books, key=lambda x: x.position)
+    
     def statistics_for_year(self, year: int) -> Dict:
         """ Getting the statistics for a year """
         stats = { "read": 0 }
