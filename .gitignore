@@ -2,3 +2,5 @@ build
 *.egg-info
 .venv
 __pycache__
+
+demo/results/*

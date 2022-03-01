@@ -100,8 +100,17 @@ To run the test allowing for prints (not capturing) and inspecting fixtures run:
 
 When you finish, stop the virtual environment with: `deactivate`
 
-## Change log
+## Run with demo data
 
-### v0.1.4
+In the `demo/source` folder you will finde data to do a demo run of the tool. To do so follow these steps:
 
-* [goodreads] The complementary data includes the title of the books (issue #5)
+1. (If not done already) Set up the environment `python3 -m venv .venv`
+2. Activate the environment: `source .venv/bin/activate`
+3. (If not done already) Install the requirements: `pip install -r requirements.txt`
+4. Install the local package to edit: `pip install -e ./`
+
+```bash
+go-over -v goodreads -g ./demo/source/goodreads_library_export.csv -c ./demo/source/goodreads_complement.json -r ./demo/results
+```
+
+After doing this, in the results folder you will have all the generated files.

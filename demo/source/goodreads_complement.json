@@ -1,0 +1,2332 @@
+{
+    "books": [
+        {
+            "id": "49099937",
+            "title": "No Rules Rules: Netflix and the Culture of Reinvention",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": "/reed-hastings-erin-meyer-no-rules-rules/",
+            "read_dates": [
+                "2022/02/22"
+            ]
+        },
+        {
+            "id": "70156",
+            "title": "Patterns of Enterprise Application Architecture",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "57287045",
+            "title": "Basil, el ratol\u00ed superdetectiu",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2022/02/23"
+            ]
+        },
+        {
+            "id": "57343730",
+            "title": "Super Learning: Advanced Strategies for Quicker Comprehension, Greater Retention, and Systematic Expertise",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": "/peter-hollins-super-learning/",
+            "read_dates": [
+                "2022/02/17"
+            ]
+        },
+        {
+            "id": "54330869",
+            "title": "Fluent Python: Clear, Concise, and Effective Programming",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "58661468",
+            "title": "Crafting Interpreters",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "53580147",
+            "title": "Learning SQL: Generate, Manipulate, and Retrieve Data",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "50083115",
+            "title": "Architecture Patterns with Python: Enabling Test-Driven Development, Domain-Driven Design, and Event-Driven Microservices",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "59207618",
+            "title": "A Radical Enterprise: Pioneering the Future of High-Performing Organizations",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "4268826",
+            "title": "Growing Object-Oriented Software, Guided by Tests",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "41795733",
+            "title": "Range: Why Generalists Triumph in a Specialized World",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "25273650",
+            "title": "The Culture Map: Decoding How People Think, Lead, and Get Things Done Across Cultures",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": "/erin-meyer-the-culture-map/",
+            "read_dates": [
+                "2022/02/09"
+            ]
+        },
+        {
+            "id": "39996759",
+            "title": "A Philosophy of Software Design",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "8337919",
+            "title": "Coaching Agile Teams: A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": "/lyssa-adkins-coaching-agile-teams/",
+            "read_dates": [
+                "2022/02/04"
+            ]
+        },
+        {
+            "id": "58017525",
+            "title": "Being Myself (The Essence of Meditation Series)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "51910010",
+            "title": "L'illa de Paidon\u00e8sia",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2022/01/23"
+            ]
+        },
+        {
+            "id": "32064294",
+            "title": "My Hero Academia 1 (My Hero Academia, #1)",
+            "language": "ES",
+            "tags": "fiction,comic",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2022/01/16"
+            ]
+        },
+        {
+            "id": "21343",
+            "title": "The Five Dysfunctions of a Team: A Leadership Fable",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "58301762",
+            "title": "La vie est un roman",
+            "language": "FR",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "57773143",
+            "title": "Els Rebels de la cabanya",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/04/22"
+            ]
+        },
+        {
+            "id": "57060717",
+            "title": "Nowhere Girl",
+            "language": "FR",
+            "tags": "fiction, graphic novel",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/12/26"
+            ]
+        },
+        {
+            "id": "17255186",
+            "title": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
+            "language": "EN",
+            "tags": "fiction, devops",
+            "format": "audiobook",
+            "my_review_url": "/gene-kim-the-phoenix-project/",
+            "read_dates": [
+                "2021/12/11"
+            ]
+        },
+        {
+            "id": "35755822",
+            "title": "Building Evolutionary Architectures: Support Constant Change",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "34695799",
+            "title": "Python Testing with Pytest: Simple, Rapid, Effective, and Scalable",
+            "language": "EN",
+            "tags": "nonfiction, technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "59000475",
+            "title": "Haiky\u00fb!!, vol. 1 (\u30cf\u30a4\u30ad\u30e5\u30fc!! / Haiky\u016b!!, #1)",
+            "language": "ES",
+            "tags": "fiction, comic",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/11/23"
+            ]
+        },
+        {
+            "id": "44144493",
+            "title": "Fundamentals of Software Architecture: An Engineering Approach",
+            "language": "EN",
+            "tags": "nonfiction, technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "6667514",
+            "title": "The Checklist Manifesto: How to Get Things Right",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/11/16"
+            ]
+        },
+        {
+            "id": "74256",
+            "title": "Le Petit Nicolas",
+            "language": "FR",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/11/14"
+            ]
+        },
+        {
+            "id": "44595007",
+            "title": "Indistractable: How to Control Your Attention and Choose Your Life",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/11/11"
+            ]
+        },
+        {
+            "id": "14556634",
+            "title": "The Longest Race: A Lifelong Runner, an Iconic Ultramarathon, and the Case for Human Endurance",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/10/20"
+            ]
+        },
+        {
+            "id": "36398423",
+            "title": "Sarah (La Brigade des Cauchemars, #1)",
+            "language": "FR",
+            "tags": "fiction, graphic novel",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/10/16"
+            ]
+        },
+        {
+            "id": "45448374",
+            "title": "Vers la beaut\u00e9",
+            "language": "FR",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/10/10"
+            ]
+        },
+        {
+            "id": "18476763",
+            "title": "Diet Cults: The Surprising Fallacy at the Core of Nutrition Fads and a Guide to Healthy Eating for the Rest of US",
+            "language": "EN",
+            "tags": "nonfiction, health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/09/30"
+            ]
+        },
+        {
+            "id": "58833698",
+            "title": "Hola, micos!",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/09/22"
+            ]
+        },
+        {
+            "id": "35387943",
+            "title": "The Baltimore Boys",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/09/05"
+            ]
+        },
+        {
+            "id": "55032554",
+            "title": "The Lost Art of Running: A Journey to Rediscover the Forgotten Essence of Human Movement",
+            "language": "EN",
+            "tags": "nonfiction, health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/08/29"
+            ]
+        },
+        {
+            "id": "49336275",
+            "title": "Combine: Asynchronous Programming with Swift",
+            "language": "EN",
+            "tags": "nonfiction, technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/08/18"
+            ]
+        },
+        {
+            "id": "52733649",
+            "title": "SwiftUI by Tutorials",
+            "language": "EN",
+            "tags": "nonfiction, technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/08/18"
+            ]
+        },
+        {
+            "id": "48737377",
+            "title": "Doing Agile Right: Transformation Without Chaos",
+            "language": "EN",
+            "tags": "nonfiction, process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/08/10"
+            ]
+        },
+        {
+            "id": "58300629",
+            "title": "Brisca",
+            "language": "ES",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/07/20"
+            ]
+        },
+        {
+            "id": "55722731",
+            "title": "Programming IOS 14",
+            "language": "EN",
+            "tags": "nonfiction, technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/07/16"
+            ]
+        },
+        {
+            "id": "57941727",
+            "title": "Em venc la mare",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/05"
+            ]
+        },
+        {
+            "id": "30008950",
+            "title": "The Power of Meaning: Crafting a Life That Matters",
+            "language": "EN",
+            "tags": "nonfiction, psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/07/10"
+            ]
+        },
+        {
+            "id": "5771014",
+            "title": "The Talent Code: Unlocking the Secret of Skill in Sports, Art, Music, Math, and Just About Everything Else",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/27"
+            ]
+        },
+        {
+            "id": "44279312",
+            "title": "Personality Isn't Permanent: Break Free from Self-Limiting Beliefs and Rewrite Your Story",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/26"
+            ]
+        },
+        {
+            "id": "58293608",
+            "title": "El pianista cec",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/20"
+            ]
+        },
+        {
+            "id": "31836443",
+            "title": "Harry Potter and the Philosopher's Stone",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/17"
+            ]
+        },
+        {
+            "id": "25733994",
+            "title": "The Productivity Project: Accomplishing More by Managing Your Time, Attention, and Energy",
+            "language": "EN",
+            "tags": "nonfiction, process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/13"
+            ]
+        },
+        {
+            "id": "13623142",
+            "title": "Teach Your Children Well: Why Values and Coping Skills Matter More Than Grades, Trophies, or \"Fat Envelopes\"",
+            "language": "EN",
+            "tags": "nonfiction, psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/09"
+            ]
+        },
+        {
+            "id": "58241347",
+            "title": "Elemental, estimat Nano",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/06/04"
+            ]
+        },
+        {
+            "id": "54895700",
+            "title": "Effortless: Make It Easier to Do What Matters Most",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/30"
+            ]
+        },
+        {
+            "id": "23878688",
+            "title": "The 5 Love Languages: The Secret to Love that Lasts",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/24"
+            ]
+        },
+        {
+            "id": "40892452",
+            "title": "Com escriure realment malament",
+            "language": "CAT",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/20"
+            ]
+        },
+        {
+            "id": "48890486",
+            "title": "Breath: The New Science of a Lost Art",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/20"
+            ]
+        },
+        {
+            "id": "40745",
+            "title": "Mindset: The New Psychology of Success",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/16"
+            ]
+        },
+        {
+            "id": "20806992",
+            "title": "Mi vecino de abajo",
+            "language": "ES",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/12"
+            ]
+        },
+        {
+            "id": "18077875",
+            "title": "Essentialism: The Disciplined Pursuit of Less",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/06/12",
+                "2021/04/22"
+            ]
+        },
+        {
+            "id": "18891286",
+            "title": "The Practicing Mind: Developing Focus and Discipline in Your Life -- Master Any Skill or Challenge by Learning to Love the Process",
+            "language": "EN",
+            "tags": "nonfiction, psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/08"
+            ]
+        },
+        {
+            "id": "22455887",
+            "title": "The Practice of Practice",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/10/20",
+                "2021/05/06"
+            ]
+        },
+        {
+            "id": "31213187",
+            "title": "The Future of Happiness: 5 Modern Strategies for Balancing Productivity and Well-Being in the Digital Era",
+            "language": "EN",
+            "tags": "nonfiction, psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/05/01"
+            ]
+        },
+        {
+            "id": "55027939",
+            "title": "Ketones, The Fourth Fuel: Warburg to Krebs to Veech, the 250 Year Journey to Find the Fountain of Youth",
+            "language": "EN",
+            "tags": "nonfiction, health",
+            "format": "audiobook",
+            "my_review_url": "/travis-christofferson-ketones-the-fourth-fuel/",
+            "read_dates": [
+                "2021/03/01"
+            ]
+        },
+        {
+            "id": "801940",
+            "title": "Overcoming Dyslexia: A New and Complete Science-Based Program for Reading Problems at Any Level",
+            "language": "EN",
+            "tags": "nonfiction,dyslexia",
+            "format": "audiobook",
+            "my_review_url": "/sally-e-shaywitz-overcoming-dyslexia/",
+            "read_dates": [
+                "2021/04/04"
+            ]
+        },
+        {
+            "id": "23281639",
+            "title": "The Upside of Stress: Why Stress Is Good for You, and How to Get Good at It",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/04/16"
+            ]
+        },
+        {
+            "id": "7975103",
+            "title": "The Systems Thinking Playbook: Exercises to Stretch and Build Learning and Systems Thinking Capabilities",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "43352208",
+            "title": "Mastering Collaboration: Make Working Together Less Painful and More Productive",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "838602",
+            "title": "Super Sight-Reading Secrets: An Innovative, Step-By-Step Program for Musical Keyboard Players of All Levels",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/03/17"
+            ]
+        },
+        {
+            "id": "27213329",
+            "title": "Grit: The Power of Passion and Perseverance",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/03/13"
+            ]
+        },
+        {
+            "id": "17262137",
+            "title": "The Dyslexia Empowerment Plan: A Blueprint for Renewing Your Child's Confidence and Love of Learning",
+            "language": "EN",
+            "tags": "nonfiction,dyslexia",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/03/01"
+            ]
+        },
+        {
+            "id": "56941306",
+            "title": "How to Train Your Mind: Exploring the Productivity Benefits of Meditation",
+            "language": "EN",
+            "tags": "nonfiction, psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/03/01"
+            ]
+        },
+        {
+            "id": "28930640",
+            "title": "The Ideal Team Player: How to Recognize and Cultivate The Three Essential Virtues",
+            "language": "EN",
+            "tags": "fiction, process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/12/18",
+                "2021/01/29"
+            ]
+        },
+        {
+            "id": "44144746",
+            "title": "The Minimalist Way: Minimalism Strategies to Declutter Your Life and Make Room for Joy",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/01/03",
+                "2021/01/20"
+            ]
+        },
+        {
+            "id": "37786022",
+            "title": "Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/01/16"
+            ]
+        },
+        {
+            "id": "52062839",
+            "title": "The Case for Keto: Rethinking Weight Control and the Science and Practice of Low-Carb/High-Fat Eating",
+            "language": "EN",
+            "tags": "nonfiction, health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/01/09"
+            ]
+        },
+        {
+            "id": "25897950",
+            "title": "No Fears, No Excuses: What You Need to Do to Have a Great Career",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2021/01/03",
+                "2020/08/31"
+            ]
+        },
+        {
+            "id": "50343488",
+            "title": "Sooner Safer Happier: Patterns and Antipatterns for Organizational Agility",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "10954982",
+            "title": "My Dyslexia",
+            "language": "EN",
+            "tags": "nonfiction,education,dyslexia",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/12/24"
+            ]
+        },
+        {
+            "id": "40883230",
+            "title": "Tranquils i atents com una granota: La meditaci\u00f3 per als nens...amb pares",
+            "language": "CAT",
+            "tags": "nonfiction,education",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/12/23"
+            ]
+        },
+        {
+            "id": "9420697",
+            "title": "The Compound Effect: Jumpstart Your Income, Your Life, Your Success",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/12/19"
+            ]
+        },
+        {
+            "id": "30032468",
+            "title": "Good Authority: How to Become the Leader Your Team Is Waiting for",
+            "language": "EN",
+            "tags": "nonfiction,leadership",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/12/15"
+            ]
+        },
+        {
+            "id": "53091747",
+            "title": "The Mental Toughness Advantage: A 5-Step Program to Boost Your Resilience and Reach Your Goals",
+            "language": "EN",
+            "tags": "nonfiction,self improvement,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/12/06"
+            ]
+        },
+        {
+            "id": "54749394",
+            "title": "Lies My Doctor Told Me: Medical Myths That Can Harm Your Health",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/11/30"
+            ]
+        },
+        {
+            "id": "13663747",
+            "title": "Essential Scrum: A Practical Guide to the Most Popular Agile Process",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "24611751",
+            "title": "Psycho-Cybernetics, Updated and Expanded",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/11/23"
+            ]
+        },
+        {
+            "id": "5608045",
+            "title": "Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/11/21"
+            ]
+        },
+        {
+            "id": "35393371",
+            "title": "Atentos y contentos: Mindfulness para ni\u00f1os",
+            "language": "ES",
+            "tags": "nonfiction,education,psycology",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/10/28"
+            ]
+        },
+        {
+            "id": "16130316",
+            "title": "The Big Fat Surprise: Why Butter, Meat and Cheese Belong in a Healthy Diet",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/09/06"
+            ]
+        },
+        {
+            "id": "22928952",
+            "title": "The Mindful Athlete: Secrets to Pure Performance",
+            "language": "EN",
+            "tags": "nonfiction,health,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/10/18"
+            ]
+        },
+        {
+            "id": "41439875",
+            "title": "Acordes y desacuerdos",
+            "language": "ES",
+            "tags": "fiction,graphic novel",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/14"
+            ]
+        },
+        {
+            "id": "17166225",
+            "title": "The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life: Before 8AM",
+            "language": "EN",
+            "tags": "nonfiction,process,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/08/26"
+            ]
+        },
+        {
+            "id": "53343",
+            "title": "On Writing Well: The Classic Guide to Writing Nonfiction",
+            "language": "EN",
+            "tags": "nonfiction,education,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "136959",
+            "title": "Strong Fathers, Strong Daughters: 10 Secrets Every Father Should Know",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/08/03"
+            ]
+        },
+        {
+            "id": "18770267",
+            "title": "Make It Stick: The Science of Successful Learning",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/07/24"
+            ]
+        },
+        {
+            "id": "18813645",
+            "title": "The Gift of Failure: How the Best Parents Learn to Let Go So Their Children Can Succeed",
+            "language": "EN",
+            "tags": "nonfiction,psycology,education",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/07/13"
+            ]
+        },
+        {
+            "id": "17986418",
+            "title": "Naked Statistics: Stripping the Dread from the Data",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/07/09"
+            ]
+        },
+        {
+            "id": "40121378",
+            "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+            "language": "EN",
+            "tags": "nonfiction,process,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/06/14",
+                "2019/11/04"
+            ]
+        },
+        {
+            "id": "6452796",
+            "title": "Drive: The Surprising Truth About What Motivates Us",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/06/05",
+                "2019/08/02"
+            ]
+        },
+        {
+            "id": "35721140",
+            "title": "Liquid Rules: The Delightful and Dangerous Substances That Flow Through Our Lives",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/05/29"
+            ]
+        },
+        {
+            "id": "32670670",
+            "title": "The Complete Guide to Fasting: Heal Your Body Through Intermittent, Alternate-Day, and Extended Fasting",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/05/24"
+            ]
+        },
+        {
+            "id": "45280024",
+            "title": "The Pragmatic Programmer: Your Journey to Mastery",
+            "language": "EN",
+            "tags": "nonfiction,technical,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/05/17"
+            ]
+        },
+        {
+            "id": "26156469",
+            "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/11/09"
+            ]
+        },
+        {
+            "id": "25050513",
+            "title": "The Truth about the Harry Quebert Affair",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/05/03"
+            ]
+        },
+        {
+            "id": "52905746",
+            "title": "How to Build Meaningful Relationships through Conversations",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/04/27"
+            ]
+        },
+        {
+            "id": "48982218",
+            "title": "The Science of Sci-Fi: From Warp Speed to Interstellar Travel",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/04/13"
+            ]
+        },
+        {
+            "id": "48585885",
+            "title": "Advanced iOS App Architecture: Real-World App Architecture in Swift",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/04/16"
+            ]
+        },
+        {
+            "id": "38217708",
+            "title": "The Late Show (Ren\u00e9e Ballard, #1; Harry Bosch Universe, #29)",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/04/03"
+            ]
+        },
+        {
+            "id": "7155145",
+            "title": "Linchpin: Are You Indispensable?",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/03/29"
+            ]
+        },
+        {
+            "id": "35052575",
+            "title": "RxSwift: Reactive Programming with Swift",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/11/20"
+            ]
+        },
+        {
+            "id": "27485",
+            "title": "Mating in Captivity: Reconciling the Erotic and the Domestic",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/04/10"
+            ]
+        },
+        {
+            "id": "52580054",
+            "title": "Agile Technical Practices Distilled: A learning journey in technical practices and principles of software design",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "25614847",
+            "title": "Untangled: Guiding Teenage Girls Through the Seven Transitions into Adulthood",
+            "language": "EN",
+            "tags": "nonfiction,education,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/03/07"
+            ]
+        },
+        {
+            "id": "35135772",
+            "title": "Refactoring: Improving the Design of Existing Code",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "13235689",
+            "title": "How Music Works",
+            "language": "EN",
+            "tags": "nonfiction,music",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/02/13"
+            ]
+        },
+        {
+            "id": "31706504",
+            "title": "Barking Up the Wrong Tree: The Surprising Science Behind Why Everything You Know About Success Is (Mostly) Wrong",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/02/21"
+            ]
+        },
+        {
+            "id": "828448",
+            "title": "The Lost Art of Listening: How Learning to Listen Can Improve Relationships",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/02/13"
+            ]
+        },
+        {
+            "id": "35297483",
+            "title": "Voice Lessons for Parents: What to Say, How to Say it, and When to Listen",
+            "language": "EN",
+            "tags": "nonfiction,education,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/01/30"
+            ]
+        },
+        {
+            "id": "1963638",
+            "title": "The Untethered Soul: The Journey Beyond Yourself",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2020/01/13"
+            ]
+        },
+        {
+            "id": "43183121",
+            "title": "The Science of Storytelling",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "387190",
+            "title": "Test-Driven Development: By Example",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "34507927",
+            "title": "How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking \u2013 for Students, Academics and Nonfiction Book Writers",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/12/17"
+            ]
+        },
+        {
+            "id": "41014339",
+            "title": "Endure: Mind, Body, and the Curiously Elastic Limits of Human Performance",
+            "language": "EN",
+            "tags": "nonfiction,health,psycology,sports",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/12/16"
+            ]
+        },
+        {
+            "id": "40881894",
+            "title": "How to Lead When You're Not in Charge: Leveraging Influence When You Lack Authority",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "28260499",
+            "title": "Run Fast: How to Beat Your Best Time Every Time",
+            "language": "EN",
+            "tags": "nonfiction,sports",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/12/05"
+            ]
+        },
+        {
+            "id": "34323593",
+            "title": "Product Mastery: From Good To Great Product Ownership",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/11/25"
+            ]
+        },
+        {
+            "id": "160014",
+            "title": "Fahrenheit 451",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/11/18"
+            ]
+        },
+        {
+            "id": "43582738",
+            "title": "The Scrum Fieldbook: A Master Class on Accelerating Performance, Getting Results, and Defining the Future",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/11/18"
+            ]
+        },
+        {
+            "id": "18656039",
+            "title": "Go Wild: Free Your Body and Mind from the Afflictions of Civilization",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/11/13"
+            ]
+        },
+        {
+            "id": "41721428",
+            "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+            "language": "EN",
+            "tags": "nonfiction,sports,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/10/31"
+            ]
+        },
+        {
+            "id": "40672036",
+            "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
+            "language": "EN",
+            "tags": "nonfiction,psycology,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/10/26"
+            ]
+        },
+        {
+            "id": "43848929",
+            "title": "Talking to Strangers: What We Should Know About the People We Don\u2019t Know",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/10/19"
+            ]
+        },
+        {
+            "id": "43582733",
+            "title": "Stillness Is the Key",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/10/15"
+            ]
+        },
+        {
+            "id": "25345644",
+            "title": "Do the Work: Overcome Resistance and Get Out of Your Own Way",
+            "language": "EN",
+            "tags": "nonfiction,psycology,process",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/10/11"
+            ]
+        },
+        {
+            "id": "1319",
+            "title": "The War of Art: Winning the Inner Creative Battle",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/10/04"
+            ]
+        },
+        {
+            "id": "40293",
+            "title": "Pastwatch: The Redemption of Christopher Columbus",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/09/27"
+            ]
+        },
+        {
+            "id": "44770129",
+            "title": "Ultralearning: Master Hard Skills, Outsmart the Competition, and Accelerate Your Career",
+            "language": "EN",
+            "tags": "nonfiction,process,education",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/09/27"
+            ]
+        },
+        {
+            "id": "23876560",
+            "title": "Whole Body Barefoot: Transitioning Well to Minimal Footwear",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/09/22"
+            ]
+        },
+        {
+            "id": "1713426",
+            "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/09/21"
+            ]
+        },
+        {
+            "id": "721609",
+            "title": "Spark: The Revolutionary New Science of Exercise and the Brain",
+            "language": "EN",
+            "tags": "nonfiction,education,sports,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/09/15"
+            ]
+        },
+        {
+            "id": "31450959",
+            "title": "Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/09/06"
+            ]
+        },
+        {
+            "id": "18668059",
+            "title": "The Obstacle Is the Way: The Timeless Art of Turning Trials into Triumph",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/08/29"
+            ]
+        },
+        {
+            "id": "126507",
+            "title": "Lost Light (Harry Bosch, #9; Harry Bosch Universe, #11)",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/08/28"
+            ]
+        },
+        {
+            "id": "27036528",
+            "title": "Ego Is the Enemy",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/08/15",
+                "2018/09/16"
+            ]
+        },
+        {
+            "id": "4865",
+            "title": "How to Win Friends and Influence People",
+            "language": "EN",
+            "tags": "nonfiction, psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/06/03",
+                "2019/08/13"
+            ]
+        },
+        {
+            "id": "23232941",
+            "title": "Soft Skills: The Software Developer's Life Manual",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/07/28"
+            ]
+        },
+        {
+            "id": "35457692",
+            "title": "The Self-Driven Child: The Science and Sense of Giving Your Kids More Control Over Their Lives",
+            "language": "EN",
+            "tags": "nonfiction,psycology,education",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/07/22"
+            ]
+        },
+        {
+            "id": "39313439",
+            "title": "Radical Candor",
+            "language": "EN",
+            "tags": "nonfiction,leadership",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/07/01"
+            ]
+        },
+        {
+            "id": "76865",
+            "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/06/22"
+            ]
+        },
+        {
+            "id": "43713",
+            "title": "Structure and Interpretation of Computer Programs",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "38900866",
+            "title": "It Doesn't Have to Be Crazy at Work",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/06/16"
+            ]
+        },
+        {
+            "id": "44077983",
+            "title": "Killer by Nature (an Audible Original Audiobook)",
+            "language": "EN",
+            "tags": "fiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/06/08"
+            ]
+        },
+        {
+            "id": "71730",
+            "title": "Nonviolent Communication: A Language of Life",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/05/30"
+            ]
+        },
+        {
+            "id": "41078466",
+            "title": "Swift in Depth",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/05/16"
+            ]
+        },
+        {
+            "id": "34466963",
+            "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/05/28"
+            ]
+        },
+        {
+            "id": "30461123",
+            "title": "Practical Object-Oriented Design: An Agile Primer Using Ruby",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/04/21"
+            ]
+        },
+        {
+            "id": "69571",
+            "title": "Rich Dad, Poor Dad",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/04/14"
+            ]
+        },
+        {
+            "id": "29579",
+            "title": "Foundation (Foundation, #1)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/04/09"
+            ]
+        },
+        {
+            "id": "43807721",
+            "title": "Sovereign",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/03/20"
+            ]
+        },
+        {
+            "id": "40873423",
+            "title": "No-Drama Discipline: The Whole-Brain Way to Calm the Chaos and Nurture Your Child's Developing Mind",
+            "language": "EN",
+            "tags": "nonfiction,education,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/03/09"
+            ]
+        },
+        {
+            "id": "39071691",
+            "title": "The Bullet Journal Method: Track the Past, Order the Present, Design the Future",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/03/02"
+            ]
+        },
+        {
+            "id": "23692271",
+            "title": "Sapiens: A Brief History of Humankind",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/24"
+            ]
+        },
+        {
+            "id": "40522789",
+            "title": "The Black Holes",
+            "language": "EN",
+            "tags": "fiction,graphic novel",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/18"
+            ]
+        },
+        {
+            "id": "30039048",
+            "title": "What Doesn't Kill Us: How Freezing Water, Extreme Altitude, and Environmental Conditioning Will Renew Our Lost Evolutionary Strength",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/12"
+            ]
+        },
+        {
+            "id": "12104696",
+            "title": "F\u00fcnftausend Kilometer in der Sekunde",
+            "language": "CAT",
+            "tags": "fiction,graphic novel",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/07"
+            ]
+        },
+        {
+            "id": "5069983",
+            "title": "Le R\u00eave De Meteor Slim",
+            "language": "ES",
+            "tags": "fiction,graphic novel",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/04"
+            ]
+        },
+        {
+            "id": "18165261",
+            "title": "Scrum Mastery: From Good To Great Servant-Leadership",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/02/02",
+                "2018/11/10"
+            ]
+        },
+        {
+            "id": "19288230",
+            "title": "Scrum: The Art of Doing Twice the Work in Half the Time",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/01/29",
+                "2018/11/16"
+            ]
+        },
+        {
+            "id": "29353087",
+            "title": "The Science of Mindfulness: A Research-Based Path to Well-Being",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/01/20"
+            ]
+        },
+        {
+            "id": "28383248",
+            "title": "Deep Work: Rules for Focused Success in a Distracted World",
+            "language": "EN",
+            "tags": "nonfiction,process,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2019/01/07"
+            ]
+        },
+        {
+            "id": "38122464",
+            "title": "Ten Arguments for Deleting Your Social Media Accounts Right Now",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/12/18"
+            ]
+        },
+        {
+            "id": "952",
+            "title": "The Five Love Languages of Children",
+            "language": "EN",
+            "tags": "nonfiction,education,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/11/30"
+            ]
+        },
+        {
+            "id": "13589182",
+            "title": "Mastery",
+            "language": "EN",
+            "tags": "nonfiction,process,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/11/04"
+            ]
+        },
+        {
+            "id": "31297882",
+            "title": "Ruby Programming: The Well-Grounded Rubyist",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "22668729",
+            "title": "Hooked: How to Build Habit-Forming Products",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/10/19"
+            ]
+        },
+        {
+            "id": "6342995",
+            "title": "The Score Takes Care of Itself: My Philosophy of Leadership",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/10/11"
+            ]
+        },
+        {
+            "id": "34466962",
+            "title": "There's No Such Thing as Bad Weather: A Scandinavian Mom's Secrets for Raising Healthy, Resilient, and Confident Kids (from Friluftsliv to Hygge)",
+            "language": "EN",
+            "tags": "nonfiction,psycology,education",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/28"
+            ]
+        },
+        {
+            "id": "21319000",
+            "title": "The One Thing: The Surprisingly Simple Truth Behind Extraordinary Results",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/25"
+            ]
+        },
+        {
+            "id": "5617966",
+            "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/24"
+            ]
+        },
+        {
+            "id": "12609433",
+            "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+            "language": "EN",
+            "tags": "nonfiction,psycology,process",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/17"
+            ]
+        },
+        {
+            "id": "34595068",
+            "title": "What the Heck Is Eos?: A Complete Guide for Employees in Companies Running on EOS",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "hardcover",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/06"
+            ]
+        },
+        {
+            "id": "40102",
+            "title": "Blink: The Power of Thinking Without Thinking",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/08"
+            ]
+        },
+        {
+            "id": "28257707",
+            "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/09/03"
+            ]
+        },
+        {
+            "id": "1820055",
+            "title": "Good Calories, Bad Calories: Challenging the Conventional Wisdom on Diet, Weight Control, and Disease",
+            "language": "EN",
+            "tags": "nonfiction,health",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/08/29"
+            ]
+        },
+        {
+            "id": "71416",
+            "title": "El club Dumas",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "19084476",
+            "title": "Remote Pairing: Collaborative Tools for Distributed Development",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "24383673",
+            "title": "iOS Internationalization: The Complete Guide",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "3048266",
+            "title": "Core Animation for Mac OS X and the iPhone",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "6137842",
+            "title": "Core Data",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "16033521",
+            "title": "Core Data",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "32302568",
+            "title": "Tmux 2: Productive Mouse-Free Development",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "13506825",
+            "title": "Tmux: Productive Mouse-Free Development",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "15858089",
+            "title": "The Sketchnote Handbook: The Illustrated Guide to Visual Note Taking",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "31823677",
+            "title": "Tools of Titans: The Tactics, Routines, and Habits of Billionaires, Icons, and World-Class Performers",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "515",
+            "title": "Programming Ruby: The Pragmatic Programmers' Guide",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "85009",
+            "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover,",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "3892688",
+            "title": "The Well-Grounded Rubyist",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "28448343",
+            "title": "La computadora universal. De Leibniz a Turing",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "183015",
+            "title": "Uncle Petros and Goldbach's Conjecture: A Novel of Mathematical Obsession",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "3735293",
+            "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+            "language": "EN",
+            "tags": "nonfiction,process,technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/08/10"
+            ]
+        },
+        {
+            "id": "6772529",
+            "title": "The Hidden Brain: How Our Unconscious Minds Elect Presidents, Control Markets, Wage Wars, and Save Our Lives",
+            "language": "EN",
+            "tags": "nonfiction,psycology",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/08/08",
+                "2011/06/06"
+            ]
+        },
+        {
+            "id": "1633",
+            "title": "Getting Things Done: The Art of Stress-Free Productivity",
+            "language": "EN",
+            "tags": "nonfiction,process",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/07/29"
+            ]
+        },
+        {
+            "id": "10284614",
+            "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/07/21"
+            ]
+        },
+        {
+            "id": "425208",
+            "title": "The Algorithm Design Manual",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "18054154",
+            "title": "Software Craftsmanship",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "141565",
+            "title": "This Is Your Brain on Music: The Science of a Human Obsession",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "18774640",
+            "title": "Build Awesome Command-Line Applications in Ruby 2: Control Your Computer, Simplify Your Life",
+            "language": "EN",
+            "tags": "nonfiction,technical",
+            "format": "ebook",
+            "my_review_url": null,
+            "read_dates": [
+                "2018/06/29"
+            ]
+        },
+        {
+            "id": "27038298",
+            "title": "Text Processing with Ruby: Extract Value from the Data That Surrounds You",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "61690",
+            "title": "The List of Seven (The List of Seven, #1)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "375802",
+            "title": "Ender's Game (Ender's Saga, #1)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "10644930",
+            "title": "11/22/63",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "2367020",
+            "title": "7th Son: Destruction (7th Son, #3)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "2367009",
+            "title": "7th Son: Deceit (7th Son, #2)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "423332",
+            "title": "7th Son:  Descent (7th Son, #1)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "11125",
+            "title": "Digital Fortress",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "960",
+            "title": "Angels & Demons (Robert Langdon, #1)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "968",
+            "title": "The Da Vinci Code (Robert Langdon, #2)",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "81948",
+            "title": "The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "6262510",
+            "title": "Rapt: Attention and the Focused Life",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "6512479",
+            "title": "Six Pixels of Separation: Everyone Is Connected. Connect Your Business to Everyone.",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "4462310",
+            "title": "The Pursuit of Perfect: How to Stop Chasing Perfection and Start Living a Richer, Happier Life",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "6289283",
+            "title": "Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "3228917",
+            "title": "Outliers: The Story of Success",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "2612",
+            "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "audiobook",
+            "my_review_url": null,
+            "read_dates": null
+        },
+        {
+            "id": "18043011",
+            "title": "Clean Architecture",
+            "language": "EN",
+            "tags": "nonfiction",
+            "format": "softcover",
+            "my_review_url": null,
+            "read_dates": null
+        }
+    ]
+}
