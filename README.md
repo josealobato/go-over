@@ -1,33 +1,20 @@
-# Work in progress
+# What is "go over"?
 
-`go-over` is a tool to manage data in my personal blog.
-
-At the moment I am migrating from a bunch of python scrips to a proper package. The base code is already migrated and working and next step will be the test. I'll be using the a _projects_ and the _issues_ section to control the migration and the later development.
-
-The tool already contains help so you can install localy and play with it if you wish:
+Go over is a python package desing to help managing data for a blog hosted with Jekyll. The package is designed as a CLI suite of tools, which means that it will contain several independent tools. At the moment though it contains only one (`goodreads`). Once installed you can get detail help of use by invoking the tools with no parameters.
 
 ```bash
-pip3 install <path to the folder of the package>
-go-over -h
+go-over
 ```
-
-> NOTE: I'm new to python, so any advice on how to do this better is highly welcome.
-
-Jose A. Lobato.
-
-# What is "go over"
-
-Go over is a python package desing to help managing data for a blog hosted with Jekyll. The package is designed as a CLI suite of tools, which means that it will contain several independent tools. At the coreation moment though it contains only one (`goodreads`). Once installed you can get detail help of use by invoking the tools with no parameters.
 
 ## Installation
 
-The package is provides as a [Pypy](https://pypi.org/project/pip-packaging/) installable package. Use `pip3` to install it:
+The package is provided as a [Pypy](https://pypi.org/project/pip-packaging/) installable package. Use `pip3` to install it:
 
 ```bash
 pip3 install go-over
 ```
 
-It is recommended to use a virtual environment.
+As always it is recommended to use a virtual environment.
 
 ## go-over tool: `goodreads`
 
@@ -45,9 +32,7 @@ This will generate the files in a folder with the name `./results`. But call als
 go-over goodreads -g goodreads_library_export.csv -r _data
 ```
 
-Unfortunatelly the data coming from [Goodreads.com](https://www.goodreads.com) is uncomplete or does not contains all the information to customize your blog, but no worries, you can easiy complement the that with your own data. To do so you can provide a complementary JSON file with the `-c` paramenter. If that file is not there, `go-over` will generate it for you from the data on the original CVS file. Also you can force the generation of this file any time with the flag `--force_complementary_rewrite` or `-f`
-
-You can always ask `go-over` to regenerate that file from the loaded data with the `-f` option.
+Unfortunatelly the data coming from [Goodreads.com](https://www.goodreads.com) is uncomplete or does not contains all the information to customize your blog, but no worries, you can easiy complement the that with your own data. To do so you can provide a complementary JSON file with the `-c` paramenter. If that file is not there, `go-over` will generate it for you from the data on the original CVS file. Also you can force the generation of this file any time with the flag `--force_complementary_rewrite` or `-f`. Note that forcing the generation will only override the existing data but not data will be lost from the complementary file.
 
 The complementary JSON file will have the form:
 
@@ -56,13 +41,15 @@ The complementary JSON file will have the form:
     "books": [
         {
             "id": "17255186",
+            "title": "The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win",
             "language": "EN",
             "tags": "fiction, devops",
             "format": "audiobook",
             "my_review_url": "/gene-kim-the-phoenix-project/",
             "read_dates": [
                 "2021/12/11"
-            ]
+            ],
+            "is_favourite": true
         },
     ]
 }
@@ -71,11 +58,12 @@ The complementary JSON file will have the form:
 Where:
 
 * `language`: Here you can specified the language you use to read/listen to the book/audiobook.
+* `title`: Book title. Sometimes the titles coming from the CSV are very long. Here you can short them.
 * `tags`: You can add a list of tags to apply to the book.
 * `format`: `audiobook/softcover/hardcover`
 * `my_review_url`: a partial like to you review of the book in Jekyll.
 * `read_dates`: you might have read multiple times the book, here you can add al list of the dates with the format `YYYY/MM/dd`. If you set this value to `null` the date on the original file will be used, that is the date of the last read. Use this fields if you have read it multiple times.
-
+* `is_favourite`: you can mark books as favourites. When favourites exist a `JSON` file for the favourites will be generated.
 Any data provided in the complementary file will override the one on the original CVS file.
 
 You can explore the CLI help of this tool with:
@@ -102,7 +90,7 @@ When you finish, stop the virtual environment with: `deactivate`
 
 ## Run with demo data
 
-In the `demo/source` folder you will finde data to do a demo run of the tool. To do so follow these steps:
+In the `demo/source` folder you will find data to do a demo run of the tool and see how it works. To do so follow these steps:
 
 1. (If not done already) Set up the environment `python3 -m venv .venv`
 2. Activate the environment: `source .venv/bin/activate`
@@ -113,4 +101,24 @@ In the `demo/source` folder you will finde data to do a demo run of the tool. To
 go-over -v goodreads -g ./demo/source/goodreads_library_export.csv -c ./demo/source/goodreads_complement.json -r ./demo/results
 ```
 
-After doing this, in the results folder you will have all the generated files.
+After doing this, in the results folder you will have all the generated files:
+
+```bash
+> ls -la demo/results/
+books_by_tags.json
+books_favourites.json
+books_read_2011.json
+books_read_2018.json
+books_read_2019.json
+books_read_2020.json
+books_read_2021.json
+books_read_2022.json
+books_read_no_date.json
+books_reading.json
+books_stats.json
+books_to_read.json
+```
+
+## Developer note
+
+> NOTE: I'm new to python, so any advice on how to do this better is highly welcome.
