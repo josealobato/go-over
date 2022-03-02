@@ -1,6 +1,6 @@
 # What is "go over"?
 
-Go over is a python package desing to help managing data for a blog hosted with Jekyll. The package is designed as a CLI suite of tools, which means that it will contain several independent tools. At the moment though it contains only one (`goodreads`). Once installed you can get detail help of use by invoking the tools with no parameters.
+Go over is a python package designed to help manage data for a blog hosted with Jekyll. The package is a CLI suite of tools, which means that it will contain several independent tools. At the moment, though, it has only one (`goodreads`). Once installed, you can get detailed help by invoking the tool with no parameters.
 
 ```bash
 go-over
@@ -14,7 +14,7 @@ The package is provided as a [Pypy](https://pypi.org/project/pip-packaging/) ins
 pip3 install go-over
 ```
 
-As always it is recommended to use a virtual environment.
+As always, it is recommended to use a virtual environment.
 
 ## go-over tool: `goodreads`
 
@@ -26,13 +26,13 @@ You will need to pass the CVS file to the tool:
 go-over goodreads -g goodreads_library_export.csv
 ```
 
-This will generate the files in a folder with the name `./results`. But call also tell where to generate the resulting files with the `-r` option:
+This will generate the files in a folder with name `./results`. But call also tell where to generate the resulting files with the `-r` option:
 
 ```bash
 go-over goodreads -g goodreads_library_export.csv -r _data
 ```
 
-Unfortunatelly the data coming from [Goodreads.com](https://www.goodreads.com) is uncomplete or does not contains all the information to customize your blog, but no worries, you can easiy complement the that with your own data. To do so you can provide a complementary JSON file with the `-c` paramenter. If that file is not there, `go-over` will generate it for you from the data on the original CVS file. Also you can force the generation of this file any time with the flag `--force_complementary_rewrite` or `-f`. Note that forcing the generation will only override the existing data but not data will be lost from the complementary file.
+Unfortunately, the data coming from [Goodreads.com](https://www.goodreads.com) is incomplete or does not contain all the information to customize your blog. Still, no worries, you can easily complement that with your data. To do so, you can provide a complementary JSON file with the `-c` parameter. If that file is not there, `go-over` will generate it for you from the data on the original CVS file. Also, you can force the generation of this file at any time with the flag `--force_complementary_rewrite` or `-f`. Note that forcing the generation will only override the existing data, but no data will be lost from the complementary file.
 
 The complementary JSON file will have the form:
 
@@ -57,14 +57,14 @@ The complementary JSON file will have the form:
 
 Where:
 
-* `language`: Here you can specified the language you use to read/listen to the book/audiobook.
-* `title`: Book title. Sometimes the titles coming from the CSV are very long. Here you can short them.
+* `language`: Here, you can specify the language you use to read/listen to the book/audiobook.
+* `title`: Book title. Sometimes the titles coming from the CSV are very long, and here you can shorten them.
 * `tags`: You can add a list of tags to apply to the book.
 * `format`: `audiobook/softcover/hardcover`
 * `my_review_url`: a partial like to you review of the book in Jekyll.
-* `read_dates`: you might have read multiple times the book, here you can add al list of the dates with the format `YYYY/MM/dd`. If you set this value to `null` the date on the original file will be used, that is the date of the last read. Use this fields if you have read it multiple times.
-* `is_favourite`: you can mark books as favourites. When favourites exist a `JSON` file for the favourites will be generated.
-Any data provided in the complementary file will override the one on the original CVS file.
+* `read_dates`: you might have read multiple times the book, here you can add a list of the dates with the format `YYYY/MM/dd`. If you set this value to `null`, the date on the original file will be used, which is the last read's date. Use this field if you have read it multiple times.
+* `is_favourite`: you can mark books as favourites. When favourites exist, a `JSON` file for the favourites will be generated.
+Any data provided in the complementary file will override the original CVS file.
 
 You can explore the CLI help of this tool with:
 
@@ -74,7 +74,7 @@ go-over goodreads --help
 
 ## Setting up the dev environment
 
-I'm using a python virtual environment and I have exported the configuration to a file called `venv_requirements.txt`. To start working follow these steps:
+I'm using a python virtual environment, and I have exported the configuration to a file called `venv_requirements.txt`. To start working, follow these steps:
 
 1. On the root folder, create the environment if you do not have it already with: `python3 -m venv .venv`
 2. Start the environment: `source .venv/bin/activate`
@@ -83,14 +83,14 @@ I'm using a python virtual environment and I have exported the configuration to 
 
 You should be ready to go!
 
-With that done you can run the test with: `pytest`
+With that done, you can run the test with `pytest`.
 To run the test allowing for prints (not capturing) and inspecting fixtures run: `pytest -v -s --setup-show`
 
 When you finish, stop the virtual environment with: `deactivate`
 
 ## Run with demo data
 
-In the `demo/source` folder you will find data to do a demo run of the tool and see how it works. To do so follow these steps:
+In the `demo/source` folder, you will find data to do a demo run and see how it works. To do so, without affecting your environment, follow these steps:
 
 1. (If not done already) Set up the environment `python3 -m venv .venv`
 2. Activate the environment: `source .venv/bin/activate`
@@ -121,4 +121,4 @@ books_to_read.json
 
 ## Developer note
 
-> NOTE: I'm new to python, so any advice on how to do this better is highly welcome.
+> NOTE: I'm new to python, so any advice on doing this better is highly welcome.
