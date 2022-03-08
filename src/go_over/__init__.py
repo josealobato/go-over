@@ -25,9 +25,14 @@ __setup_gr.setup_gr_parser(subparsers)
 # Function to build the global options to be intected in all tools.
 def _build_options(args):
     options = { 
-        "verbose": args.verbose,
-        "rewrite_complementary_data": args.force_complementary_rewrite
+        "verbose": args.verbose
     }
+    # Some paramenters are not always there (depend on the tool) so, 
+    # they need to be checked.
+    args_dictionary = vars(args)
+    if "force_complementary_rewrite" in args_dictionary:
+        options["rewrite_complementary_data"] = args.force_complementary_rewrite
+    
     return options
 
 # Script entry point defined in the setup.cfg file.
